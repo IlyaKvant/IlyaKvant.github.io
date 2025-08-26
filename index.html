@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ilya B. Portfolio</title>
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+
+<body>
+<main>
+    <button class="info_lang-btn" id="langButton">
+        <span lang="ru">En</span>
+        <span lang="en">Ru</span>
+    </button>
+
+    <aside class="sidebar active">
+        <div class="sidebar-info">
+            <figure class="avatar-box">
+                <img src="./assets/images/avatar.png" alt="Ilya B." width="80"/>
+            </figure>
+
+            <div class="info-content">
+                <div lang="ru">
+                    <h1 class="name" title="Ilya B.">Илья Б.</h1>
+                    <p class="title">Lead Unity разработчик</p>
+
+                </div>
+                <div lang="en">
+                    <h1 class="name" title="Ilya B.">Ilya B.</h1>
+                    <p class="title">Lead Unity developer</p>
+                </div>
+            </div>
+
+            <!--<button class="info_more-btn">
+                <span lang="en">Contacts</span>
+                <span lang="ru">Контакты</span>
+
+                <ion-icon name="chevron-down"></ion-icon>
+            </button>-->
+        </div>
+
+        <div class="sidebar-info_more">
+            <i class="separator"></i>
+
+            <ul class="social-list">
+                <li class="social-item">
+                    <a href="https://github.com/f2069" class="social-link" target="_blank" title="github">
+                        <img src="./assets/images/social/icon-github.svg"/>
+                    </a>
+                </li>
+
+                <li class="social-item">
+                    <a href="https://linkedin.com/in/ilya-kvant" class="social-link" target="_blank" title="linkedin">
+                        <img src="./assets/images/social/icon-linkedin.svg"/>
+                    </a>
+                </li>
+
+                <li class="social-item">
+                    <a href="https://t.me/iKvant" class="social-link" target="_blank" title="tg">
+                        <img src="./assets/images/social/icon-telegram.svg"/>
+                    </a>
+                </li>
+            </ul>
+
+            <i class="separator"></i>
+
+            <ul class="contacts-list">
+                <li class="contact-item">
+                    <!--<div class="icon-box">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>-->
+
+                    <div class="contact-info">
+                        <p class="contact-title">Email</p>
+                        <a href="mailto:ikvant2069@gmail.com" class="contact-link"
+                           target="_blank">ikvant2069@gmail.com</a>
+                    </div>
+                </li>
+
+                <li class="contact-item">
+                    <!--<div class="icon-box">
+                        <ion-icon name="location-outline"></ion-icon>
+                    </div>-->
+
+                    <div class="contact-info">
+                        <div lang="en">
+                            <p class="contact-title">Location</p>
+                            <address>Almaty, Kazakhstan</address>
+                        </div>
+                        <div lang="ru">
+                            <p class="contact-title">Локация</p>
+                            <address>Алматы, Казахстан</address>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <div class="main-content">
+        <article class="about active">
+            <header>
+                <h2 lang="en" class="h2 article-title">About me</h2>
+                <h2 lang="ru" class="h2 article-title">О себе</h2>
+            </header>
+
+            <section class="about-text">
+                <div lang="en">
+                    <p>I have a strong understanding of it technical aspects and constantly exploring new technologies
+                        and techniques to improve my work.</p>
+                    <p>I enjoy creating exciting gaming experiences.</p>
+                </div>
+                <div lang="ru">
+                    <p>Я хорошо разбираюсь в технических аспектах и постоянно изучаю новые технологии и методы, чтобы
+                        совершенствовать свою работу.</p>
+                    <p>Мне нравится создавать интересный и качественный игровой опыт.</p>
+                </div>
+            </section>
+
+            <header>
+                <h2 lang="en" class="h2 article-title">Skills</h2>
+                <h2 lang="ru" class="h2 article-title">Инструменты</h2>
+            </header>
+
+            <section class="about-text">
+                <div class="tech-stack">
+                    <img src="assets/images/stack/csharp.svg" alt="c#" class="tech-icon" title="C#">
+                    <img src="assets/images/stack/unity.svg" alt="unity" class="tech-icon" title="Unity">
+                    <img src="assets/images/stack/rider.svg" alt="rider" class="tech-icon" title="Rider">
+                    <img src="assets/images/stack/git.svg" alt="git" class="tech-icon" title="Git">
+                    <img src="assets/images/stack/plastic.svg" alt="plastic" class="tech-icon" title="Plastic SCM">
+                    <img src="assets/images/stack/sql.svg" alt="sql" class="tech-icon" title="SQl">
+                </div>
+            </section>
+
+            <header>
+                <h2 lang="en" class="h2 article-title">Portfolio</h2>
+                <h2 lang="ru" class="h2 article-title">Портфолио</h2>
+            </header>
+
+            <section class="projects">
+                <ul class="project-list">
+                    <li class="project-item active">
+                        <a href="https://store.steampowered.com/app/2106670/Gatekeeper/" target="_blank"
+                           title="Gatekeeper">
+
+                            <figure class="project-img">
+                                <!--<div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>-->
+
+                                <img src="./assets/images/projects/GK.jpg" alt="" loading="lazy">
+                            </figure>
+
+                            <div lang="en">
+                                <h3 class="project-title">Gatekeeper</h3>
+                                <p class="project-category">Fast-paced co-op rogue-like</p>
+                            </div>
+
+                            <div lang="ru">
+                                <h3 class="project-title">Gatekeeper</h3>
+                                <p class="project-category">Динамичный кооперативный roguelite-шутер</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-item active">
+                        <a href="https://play.google.com/store/apps/details?id=warrior.conveyor.medieval.battle"
+                           target="_blank" title="Gatekeeper">
+
+                            <figure class="project-img">
+                                <!--<div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>-->
+
+                                <img src="./assets/images/projects/WF.png" alt="" loading="lazy">
+                            </figure>
+
+                            <div>
+                                <h3 class="project-title">Warrior Conveyor</h3>
+                                <p class="project-category">Аркада (Android)</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <header>
+                <h2 lang="en" class="h2 article-title">Resume</h2>
+                <h2 lang="ru" class="h2 article-title">Резюме</h2>
+            </header>
+
+            <section class="timeline">
+                <div class="title-wrapper">
+                    <!--<div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>-->
+
+                    <h3 lang="en" class="h3">Experience</h3>
+                    <h3 lang="ru" class="h3">Опыт</h3>
+                </div>
+
+                <ul class="timeline-list">
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Gravity Lagoon LLC - Lead Unity Developer</h4>
+
+                        <div lang="ru">
+                            <span>Август 2023 — Текущее время</span>
+                            <ul class="timeline-text">
+                                <li>Управление небольшой командой разработчиков</li>
+                                <li>Рефакторинг и оптимизация legacy-кода, повышение стабильности системы и уменьшение
+                                    тех. долга
+                                </li>
+                                <li>Реализация онлайн-кооперативного многопользовательского режима</li>
+                                <li>Разработка игровой логики</li>
+                                <li>Разработка логики интерфейса</li>
+                                <li>Оптимизация производительности (код, сеть, рендеринг, пул объектов, управление
+                                    ресурсами)
+                                </li>
+                                <li>Интеграция SDK (Steamworks, GA, Unity Analytics)</li>
+                                <li>Разработка инструментов редактора для гейм-дизайнеров</li>
+                            </ul>
+                        </div>
+
+                        <div lang="en">
+                            <span>August 2023 — Present</span>
+                            <ul class="timeline-text">
+                                <li>Led a small Unity development team</li>
+                                <li>Refactored and optimized legacy modules, improving code maintainability and reducing
+                                    technical debt
+                                </li>
+                                <li>Implementing online co-op multiplayer</li>
+                                <li>Game mechanics and logic development</li>
+                                <li>UI logic development</li>
+                                <li>Optimizing performance (code, network, rendering, pooling, resource loading and
+                                    management)
+                                </li>
+                                <li>SDK integration (Steamworks, GA, Unity Analytics)</li>
+                                <li>Development of editor tools for game designers</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Square Dino LLC - Unity Developer</h4>
+
+                        <div lang="ru">
+                            <span>Август 2022 — Февраль 2023</span>
+                            <ul class="timeline-text">
+                                <li>Разработка игровой логики мобильных проектов на Unity</li>
+                                <li>Разработка логики интерфейса</li>
+                                <li>Оптимизация производительности (код, addressables, размер билда)</li>
+                                <li>Интеграция SDK (аналитика, реклама, покупки)</li>
+                            </ul>
+                        </div>
+
+                        <div lang="en">
+                            <span>August 2022 — February 2023</span>
+                            <ul class="timeline-text">
+                                <li>Game mechanics and logic development of a Unity mobile projects</li>
+                                <li>UI logic development</li>
+                                <li>Optimizing performance (code, addressables, build size)
+                                </li>
+                                <li>SDK integration (Steamworks, GA, Unity Analytics)</li>
+                                <li>Development of editor tools for game designers</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <!--<div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>-->
+
+                        <h3 lang="en" class="h3">Education</h3>
+                        <h3 lang="ru" class="h3">Образование</h3>
+                    </div>
+
+                    <ul class="timeline-list">
+                        <li class="timeline-item">
+                            <div lang="ru">
+                                <h4 class="h4 timeline-item-title">Уральский Государственный Университет им.
+                                    А.М. Горького</h4>
+                                <span>2007 — 2012</span>
+                                <div class="timeline-text">
+                                    <p>Бакалавриат по специальности ≪Математика и компьютерные науки≫</p>
+                                </div>
+                            </div>
+
+                            <div lang="en">
+                                <h4 class="h4 timeline-item-title">Ural Federal University</h4>
+                                <span>2007 — 2012</span>
+                                <div class="timeline-text">
+                                    <p>Bachelor's Degree in ≪Mathematics and Computer Science≫</p>
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </section>
+            </section>
+        </article>
+    </div>
+</main>
+
+<!-- <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
+
+<script type="text/javascript">
+    var currentLanguage = "en";
+
+    function SetLanguage(language) {
+        const fields = document.querySelectorAll("[lang]");
+        for (var i = 0; i < fields.length; i++) {
+            const field = fields[i];
+            const lang = field.getAttribute("lang");
+
+            if (lang === language) {
+                field.classList.remove("dn");
+            } else {
+                field.classList.add("dn");
+            }
+        }
+    }
+
+    var langButton = document.getElementById("langButton")
+    langButton.addEventListener("click", function () {
+        currentLanguage = currentLanguage == "ru" ? "en" : "ru";
+        SetLanguage(currentLanguage);
+    });
+
+    var langCode = (navigator.language || navigator.userLanguage).substring(0, 2).toLowerCase();
+    if (langCode !== "en" && langCode !== "ru") {
+        langCode = currentLanguage;
+    }
+
+    currentLanguage = langCode;
+    SetLanguage(langCode);
+</script>
+</body>
+</html>
